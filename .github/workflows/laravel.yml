@@ -30,7 +30,7 @@ jobs:
       run: |
         mkdir -p database
         touch database/database.sqlite
-    - name: Running Test
+    - name: Running Test - modificado
       env:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
