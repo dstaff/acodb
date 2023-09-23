@@ -20,5 +20,7 @@ jobs:
       run: git fetch
     - name: Git Pull
       run: git pull
+    - name: NPM RUND PROD
+      run: npm run prod
     - name: Test
       run: echo "Done!"
