@@ -14,9 +14,9 @@ jobs:
     steps:
     - name: Change to web Directory
       run: |
-      cd /var/www/html/this-app
-      git fetch
-      git pull
+        cd /var/www/html/this-app
+        git fetch
+        git pull
     #- name: addind some env vars
     #  run: export PATH=/usr/node/bin:$PATH && export NODE_OPTIONS=--max_old_space_size=1024
     - name: Test
