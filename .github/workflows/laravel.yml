@@ -18,7 +18,7 @@ jobs:
       run: pwd
     - name: Git Fetch
       run: git fetch
-  - name: Folder 2
+    - name: Folder 2
       run: pwd
     - name: Git Pull
       run: git pull
