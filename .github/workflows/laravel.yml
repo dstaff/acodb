@@ -15,6 +15,6 @@ jobs:
     #- name: Checkout code
     #  uses: actions/checkout@v3
     - name: Change to web Directory
-      working-directory: /var/www/html/this-app
+      run: cd /var/www/html/this-app
     - name: Test
       run: echo "Done!"
