@@ -22,7 +22,7 @@ jobs:
       run: git pull
     - name: addind some env vars
       run: export PATH=/usr/node/bin:$PATH && export NODE_OPTIONS=--max_old_space_size=1024
-    - name: NPM RUN PROD
+    - name: Setup npm
       run: npm run prod
     - name: Test
       run: echo "Done!"
