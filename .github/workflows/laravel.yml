@@ -16,7 +16,9 @@ jobs:
     #  uses: actions/checkout@v3
     - name: Change to web Directory
       run: cd /var/www/html/this-app
-    - name: Pull Changes
+    - name: Git Fetch
       run: git fetch
+    - name: Git Pull
+      run: git pull
     - name: Test
       run: echo "Done!"
