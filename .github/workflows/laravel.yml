@@ -18,4 +18,5 @@ jobs:
         git config --global --add safe.directory /var/www/html/this-app
         git fetch
         git pull
+        php artisan migrate
         npm run dev
