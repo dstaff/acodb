@@ -14,12 +14,20 @@ jobs:
     steps:
     - name: Change to web Directory
       run: cd /var/www/html/this-app
+    - name: Folder 1
+      run: pwd
     - name: Git Fetch
       run: git fetch
+  - name: Folder 2
+      run: pwd
     - name: Git Pull
       run: git pull
+    - name: Folder 3
+      run: pwd
     - name: addind some env vars
       run: export PATH=/usr/node/bin:$PATH && export NODE_OPTIONS=--max_old_space_size=1024
+    - name: Folder 4
+      run: pwd
     - name: Use Node.js
       uses: actions/setup-node@v3
     - name: Setup npm
