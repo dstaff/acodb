@@ -15,6 +15,7 @@ jobs:
     - name: Change to web Directory
       run: |
         cd /var/www/html/this-app
+        git config --global --add safe.directory /var/www/html/this-app
         git fetch
         git pull
     #- name: addind some env vars
