@@ -17,6 +17,6 @@ jobs:
     - name: Change to web Directory
       run: cd /var/www/html/this-app
     - name: Pull Changes
-      run: git status
+      run: git fetch
     - name: Test
       run: echo "Done!"
