@@ -14,5 +14,12 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+    -name: Change to web Directory
+      run: cp /var/www/html/this-app
+    -name: Update Directory
+      run: git status
+      run: git fetch
+      run: git status
+      run: git pull
     - name: Test
       run: echo "Done!"
