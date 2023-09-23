@@ -12,8 +12,6 @@ jobs:
     runs-on: self-hosted
 
     steps:
-    #- name: Checkout code
-    #  uses: actions/checkout@v3
     - name: Change to web Directory
       run: cd /var/www/html/this-app
     - name: Git Fetch
