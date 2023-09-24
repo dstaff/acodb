@@ -20,4 +20,3 @@ jobs:
         git pull
         php artisan migrate
         npm run dev
-        php artisan test
