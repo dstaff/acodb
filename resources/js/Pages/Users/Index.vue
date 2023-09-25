@@ -58,6 +58,7 @@
         </tr>
       </table>
     </div>
+    <pagination class="mt-6" :links="users.links" />
   </div>
 </template>
 
@@ -68,6 +69,7 @@ import pickBy from 'lodash/pickBy'
 import Layout from '@/Shared/Layout'
 import throttle from 'lodash/throttle'
 import mapValues from 'lodash/mapValues'
+import Pagination from '@/Shared/Pagination'
 import SearchFilter from '@/Shared/SearchFilter'
 
 export default {
@@ -75,6 +77,7 @@ export default {
     Head,
     Icon,
     Link,
+    Pagination,
     SearchFilter,
   },
   layout: Layout,
