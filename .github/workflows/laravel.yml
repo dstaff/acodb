@@ -21,4 +21,4 @@ jobs:
         php artisan migrate:fresh
         php artisan db:seed
         npm run dev
-        echo "sync test"
+        echo "check in phone"
